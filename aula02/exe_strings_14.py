@@ -3,8 +3,13 @@
 
 dt = input("Digite uma data no formato DD/MM/AAAA: ")
 
-separa = dt.split("/")
+if len(dt) == 0 :
+    print("Erro: Não foi digitado nada !!")
 
-print(f"Dia: {separa[0]}")
-print(f"Mes: {separa[1]}")
-print(f"Ano: {separa[2]}")
+else:
+        
+    separa = dt.split("/")
+
+    print(f"Dia: {separa[0]}")
+    print(f"Mes: {separa[1]}")
+    print(f"Ano: {separa[2]}")
