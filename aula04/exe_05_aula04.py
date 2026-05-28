@@ -11,10 +11,13 @@ total = 0
 for fruta in frutas :
 
     # Busca o preço correspondente
-    pf = precos[fruta]
+    preco_fruta = precos[fruta]
+
+    # Mostrando item por item
+    print(f'\n{fruta}: R$ {preco_fruta}')
     
     # Soma o acumulador
-    total += pf
+    total += preco_fruta
 
 # Mostra o resultado
 print(f'\nTotal da lista de compra: R$ {total}\n')
