@@ -1,6 +1,6 @@
 import os
- 
-os.system('/usr/bin/clear')
+
+os.system("/usr/bin/clear")
 
 ## Definir constante
 CONSTANTE_BONUS = 1000
