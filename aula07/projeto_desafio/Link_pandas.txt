@@ -1,0 +1,2 @@
+# Pandas
+https://www.amandanascimento.com/post/ler-arquivo-com-pandas

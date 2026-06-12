@@ -1,0 +1,7 @@
+Produto,Price,Quantidade,Entregue
+Notebook,3000,5,False
+Smartphone,500,10,True
+Camiseta,20,20,True
+Cafeteira,100,3,False
+Tênis,50,10,False
+Tablet,1500,2,True
