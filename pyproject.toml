@@ -8,3 +8,8 @@ dependencies = [
     "pandas>=3.0.3",
     "requests>=2.34.2",
 ]
+
+[tool.uv.workspace]
+members = [
+    "aula08",
+]
