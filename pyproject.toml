@@ -13,4 +13,6 @@ dependencies = [
 members = [
     "aula08",
     "aula09",
+    "aula10",
+    "aula11-15",
 ]
